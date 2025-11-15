@@ -1,0 +1,138 @@
+/* General Body */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f4eee0; /* Parchment background */
+    margin: 0;
+    padding: 0;
+    color: #4b3b2b; /* Dark brown text */
+}
+
+/* Header */
+header {
+    background-color: #5a432c; /* Deep royal brown */
+    color: #f0d9b5; /* Soft golden text */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #bfa16d;
+}
+
+header h3 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Inputs and textarea */
+input[type="text"],
+textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #bfa16d;
+    background-color: #fdf5e6;
+    color: #4b3b2b;
+    font-family: 'Georgia', serif;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.generate {
+    background-color: #8b5e3c;
+    color: #fff;
+}
+
+.generate:hover {
+    background-color: #bfa16d;
+    color: #5a432c;
+}
+
+.addNote {
+    background-color: #6e3f1b;
+    color: #fff;
+}
+
+.addNote:hover {
+    background-color: #bfa16d;
+    color: #5a432c;
+}
+
+/* Notes Section */
+section {
+    padding: 20px;
+}
+
+input[type="search"] {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #bfa16d;
+    background-color: #fdf5e6;
+    color: #4b3b2b;
+}
+
+/* Note Card */
+.card {
+    background-color: #fdf5e6; /* Parchment */
+    border-left: 5px solid #8b5e3c;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3.title {
+    margin: 0;
+    font-size: 20px;
+    color: #5a432c;
+}
+
+.card h4.summary {
+    font-style: italic;
+    color: #8b5e3c;
+    margin: 5px 0;
+}
+
+.card p.content {
+    margin: 10px 0;
+    color: #4b3b2b;
+}
+
+/* Card Buttons */
+.card button.edit {
+    background-color: #c49a6c;
+    color: #fff;
+}
+
+.card button.save {
+    background-color: #bfa16d;
+    color: #5a432c;
+    display: none;
+}
+
+.card button.delete {
+    background-color: #8b2e2e;
+    color: #fff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #5a432c;
+    color: #f0d9b5;
+    padding: 15px;
+}

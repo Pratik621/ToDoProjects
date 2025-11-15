@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ThoughtFlow</title>
+</head>
+<body>
+    <header>
+        <h3>Add Note</h3>
+        <input type="text" placeholder="Title" id="noteTitle">
+        <textarea id="noteContent" placeholder="Write your note here..."></textarea>
+        <button class="addNote">Add Note</button>
+    </header>
+
+    <section>
+        <input type="search" id="searchNotes" placeholder="Search notes">
+        <div id="emptyPlaceholder">No notes yet</div>
+
+        <template id="template">
+            <div class="card">
+                <h3 class="title"></h3>
+                <p class="content"></p>
+                <button class="edit">Edit</button>
+                <button class="save">Save</button>
+                <button class="delete">Delete</button>
+            </div>
+        </template>
+
+        <div id="notesContainer"></div>
+    </section>
+
+    <footer>
+        <p>© 2025 ThoughtFlow — Smart Note Assistant</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
