@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(20, 25px);
+  grid-template-rows: repeat(20, 25px);
+  margin: 20px auto;
+  width: fit-content;
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ccc;
+}
+
+.start {
+  background: green;
+}
+
+.end {
+  background: red;
+}
+
+.wall {
+  background: black;
+}
+
+.visited {
+  background: lightblue;
+}
+
+.path {
+  background: yellow;
+}
